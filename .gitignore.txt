@@ -1,0 +1,11 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore checkpoints
+.ipynb_checkpoints/
+*_checkpoint.ipynb
+
+
+# Ignore settings and generated JSON files
+settings.json
+training_hist.json
