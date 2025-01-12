@@ -6,6 +6,12 @@ __pycache__/
 *_checkpoint.ipynb
 
 
+# Ignore datasets and large files
+Dataset/
+test/
+trained_plant_disease_model.keras
+
+
 # Ignore settings and generated JSON files
 settings.json
 training_hist.json
