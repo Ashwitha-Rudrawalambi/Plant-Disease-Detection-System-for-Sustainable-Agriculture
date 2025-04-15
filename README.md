@@ -2,23 +2,23 @@
 
 A Deep Learning-powered web application that enables early and accurate plant disease diagnosis from leaf images, supporting farmers in adopting sustainable agricultural practices.
 
-## 🚀 Project Overview
+## Project Overview
 
 This project uses a **Convolutional Neural Network (CNN)** trained on a dataset of healthy and diseased plant leaf images. The model is deployed via a **Streamlit web application**, allowing users to upload plant leaf images and receive instant predictions about potential diseases.
 
 ---
 
-## 🎯 Features
+## Features
 
-- 📸 Upload a plant leaf image
-- 🤖 Predicts from 35+ disease classes
-- ⚙️ Built using TensorFlow and Streamlit
-- 💻 Offline model inference – no internet needed for predictions
-- 👨‍🌾 Easy-to-use interface tailored for non-technical users
+- Upload a plant leaf image
+- Predicts from 35+ disease classes
+- Built using TensorFlow and Streamlit
+- Offline model inference – no internet needed for predictions
+- Easy-to-use interface tailored for non-technical users
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Frontend**: Streamlit
 - **Backend**: Python, TensorFlow, Keras
@@ -27,7 +27,7 @@ This project uses a **Convolutional Neural Network (CNN)** trained on a dataset 
 
 ---
 
-## 🖼️ Sample Output
+## Sample Output
 
 | Input Leaf Image | Prediction |
 |------------------|------------|
@@ -36,7 +36,7 @@ This project uses a **Convolutional Neural Network (CNN)** trained on a dataset 
 
 ---
 
-## 📁 How to Run the Project Locally
+## How to Run the Project Locally
 
 1. **Clone the repository**
    ```bash
@@ -56,7 +56,7 @@ This project uses a **Convolutional Neural Network (CNN)** trained on a dataset 
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 plant-disease-detection/
@@ -70,7 +70,7 @@ plant-disease-detection/
 
 ---
 
-## 🔍 Model Classes
+## Model Classes
 
 Includes diseases such as:
 - Apple Scab
@@ -81,7 +81,7 @@ Includes diseases such as:
 
 ---
 
-## 📌 Limitations
+## Limitations
 
 - Sensitive to image quality (blurred or low-light images may reduce accuracy)
 - Predictions are limited to known classes in the dataset
@@ -89,7 +89,7 @@ Includes diseases such as:
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - Integration with IoT devices and drones for field deployment
 - Mobile app development for better accessibility
